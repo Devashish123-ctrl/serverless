@@ -1,0 +1,21 @@
+{
+  "unknown": {
+    "versionSfCore": null,
+    "versionFramework": "4.1.16",
+    "isWithinCompose": false,
+    "composeOrgName": null,
+    "composeServiceName": null,
+    "command": [],
+    "options": {},
+    "error": {
+      "message": "Failed to set up AWS Credentials due to request to https://sp-providers-v1.serverless-platform.com/orgs/22f99698-d71d-46cc-a57a-2cb6d2eb3f7e/providers failed, reason: . Try running \"serverless\" again in your current or newly created Service directory.",
+      "stack": null
+    },
+    "machineId": "3a00ed927619aa6a5c08ef3907986f06",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}

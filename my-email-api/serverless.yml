@@ -1,0 +1,19 @@
+service: email-api
+
+provider:
+  name: aws  # Specify AWS as the provider (optional for local testing)
+  runtime: python3.9  # Specify Python version (adjust if needed)
+
+plugins:
+  - serverless-offline
+
+functions:
+  sendEmail:
+    handler: send_email.handler
+    events:
+      - http:
+          path: /send-email
+          method: post
+          cors: true  # Allow cross-origin requests (optional)
+
+# Environment variables section (optional, for production)
